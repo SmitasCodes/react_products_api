@@ -1,0 +1,11 @@
+.productsWrapper{
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}

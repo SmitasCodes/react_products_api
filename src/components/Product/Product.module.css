@@ -1,0 +1,25 @@
+.productLi{
+  list-style-type: none;
+  flex-basis: calc(33.33% - 10px);
+  min-height: 600px;
+  padding: 5px;
+  border: 5px solid #063c6e;
+  border-radius: 5px;
+}
+
+.productLi__img{
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px ){
+  .productLi{
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px ){
+  .productLi{
+    flex-basis: calc(100% - 10px);
+  }
+}
